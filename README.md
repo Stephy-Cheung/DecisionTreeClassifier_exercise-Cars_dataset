@@ -12,7 +12,7 @@ Data is from kaggle dataset: https://www.kaggle.com/elikplim/car-evaluation-data
 
 ### Univariate data anlysis
 Imbalance of data - Majority of the cars are classified as 'unacc' and few cars are in the class of 'vgood' and 'good'.
-<img src="barplot_class" width="600">
+<img src="barplot_class.png" width="600">
 
 ### Bivariate data analysis
 Cars that can be classified as 'vgood' or 'good' normally with a medium or low buying price and maintenance fee. The cars should be 4-seater or above and with a medium or big luggage truck, and high safety level.
