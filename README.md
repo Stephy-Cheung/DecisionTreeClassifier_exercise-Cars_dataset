@@ -12,16 +12,16 @@ Data is from kaggle dataset: https://www.kaggle.com/elikplim/car-evaluation-data
 
 ### Univariate data anlysis
 Imbalance of data - Majority of the cars are classified as 'unacc' and few cars are in the class of 'vgood' and 'good'.
-<img src="barplot_class" width="600">
+<img src="image/barplot_class.png" width="600">
 
 ### Bivariate data analysis
 Cars that can be classified as 'vgood' or 'good' normally with a medium or low buying price and maintenance fee. The cars should be 4-seater or above and with a medium or big luggage truck, and high safety level.
 
-<img src="barplot_bivariate.png" width="600">
+<img src="image/barplot_bivariate.png" width="600">
 
 ## Data_Preprocessing
 Before preprocessing:
-<img src="df_beforeprocess.png" width="600">
+<img src="image/df_beforeprocess.png" width="600">
 
 There is no missing value in the data.
 All columns are categorical and with the degree listed as below. Columns are encoded to numerical according as the order in the list below. 
@@ -34,19 +34,19 @@ safety :    ['low' 'med' 'high']
 class :     ['unacc' 'acc' 'vgood' 'good']
 
 After preprocessing: 
-<img src="df_afterprocess.png" width="600">
+<img src="image/df_afterprocess.png" width="600">
 
 ## Decision Tree Classifier
 
 ### Model preformance
-<img src="model_preformance.png" width="600">
+<img src="image/model_preformance.png" width="600">
 
 ### Visualization
-<img src="Tree1.png" width="600">
+<img src="image/Tree1.png" width="600">
 
 ## Predictor
 A predictor is created on Streamlit app. An example of prediction. 
-<img src="predictor.png" width="400">
+<img src="image/predictor.png" width="400">
 
 ### Result:
-<img src="prediction.png" width="400">
+<img src="image/prediction.png" width="400">
