@@ -1,10 +1,10 @@
 # Exercise-Streamlit App on Car class dataset
 
 ## Objective
-This is an exerccise on create a data app on Streamlit for Decision Tree Classifier model. The model is a car class prediction model which predict the car class base on the buying price, maintainence price, number of doors, number of seats, luaggage boot size and safety level. 
+This is an exerccise on create a data app on Streamlit for Decision Tree Classifier model. The model is a car class prediction model which predict the car class base on the buying price, maintainence price, number of doors, number of seats, luaggage boot size and safety level. <\br>
 
-'car_app' is code for the Streamlit app
-'develop_model' is code for the python program, include fine tuning of model and visualize the model. 
+'car_app' is code for the Streamlit app <\br>
+'develop_model' is code for the python program, include fine tuning of model and visualize the model. <\br>
 
 Data is from kaggle dataset: https://www.kaggle.com/elikplim/car-evaluation-data-set
 
@@ -23,17 +23,17 @@ Cars that can be classified as 'vgood' or 'good' normally with a medium or low b
 Before preprocessing:
 <img src="image/df_beforeprocess.png" width="600">
 
-There is no missing value in the data.
-All columns are categorical and with the degree listed as below. Columns are encoded to numerical according as the order in the list below. 
-buying :    ['vhigh' 'high' 'med' 'low']
-maint :     ['vhigh' 'high' 'med' 'low']
-doors :     ['2' '3' '4' '5more']
-persons :   ['2' '4' 'more']
-lug_boot :  ['small' 'med' 'big']
-safety :    ['low' 'med' 'high']
-class :     ['unacc' 'acc' 'vgood' 'good']
+There is no missing value in the data. <\br>
+All columns are categorical and with the degree listed as below. Columns are encoded to numerical according as the order in the list below. <\br>
+buying :    ['vhigh' 'high' 'med' 'low'] <\br>
+maint :     ['vhigh' 'high' 'med' 'low'] <\br>
+doors :     ['2' '3' '4' '5more'] <\br>
+persons :   ['2' '4' 'more'] <\br>
+lug_boot :  ['small' 'med' 'big'] <\br>
+safety :    ['low' 'med' 'high'] <\br>
+class :     ['unacc' 'acc' 'vgood' 'good'] <\br>
 
-After preprocessing: 
+After preprocessing: <\br>
 <img src="image/df_afterprocess.png" width="600">
 
 ## Decision Tree Classifier
@@ -45,7 +45,7 @@ After preprocessing:
 <img src="image/Tree1.png" width="600">
 
 ## Predictor
-A predictor is created on Streamlit app. An example of prediction. 
+A predictor is created on Streamlit app. An example of prediction.  <\br>
 <img src="image/predictor.png" width="400">
 
 ### Result:
