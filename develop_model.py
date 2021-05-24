@@ -74,6 +74,13 @@ tree2.fit(X_train, y_train)
 y_pred = tree2.predict(X_test)
 print('Classification Report: ',classification_report(y_test, y_pred))
 
+# Save the model as pickle 
+import pickle
+
+pickle_out = open('tree2.pkl', mode = 'wb')
+pickle.dump(tree2, pickle_out)
+pickle_out.close()
+
 # Visualize the tree 
 # In-text
 from sklearn import tree
@@ -88,4 +95,4 @@ target_names = df['class'].unique().tolist()
 fig = plt.figure(figsize = (25,20))
 plot_tree(tree2, feature_names = feature_names, class_names = target_names, filled = True, rounded = True)
 
-plt.savefig('Tree1.png')
+plt.savefig('Tree.png')
