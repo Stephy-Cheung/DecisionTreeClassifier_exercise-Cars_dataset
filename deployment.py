@@ -38,8 +38,10 @@ safety = safety_cat.index(safety)
 
 # Prediction
 st.header('Prediction')
+
 test_data = [[buying,maint,door,person,lug_boot,safety]]
 prediction = model.predict(test_data)
+st.text ('Car class range from : unacc, acc, good, very good')
 if  prediction == 0: 
     st.subheader('This car belongs to class \'unacc\'')
 elif prediction == 1: 
