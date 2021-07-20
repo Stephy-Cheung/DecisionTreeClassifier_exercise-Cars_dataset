@@ -1,5 +1,5 @@
-# Machine Learning Exercise -Decision Tree Classifier on car dataset 
-with Streamlit data app
+# Machine Learning Exercise 
+## -Decision Tree Classifier on car dataset with Streamlit data app
 
 ## Objective
 This is an exercise on create a Decision Tree Classifier model to predict predict car class base on the buying price, maintainence price, number of doors, number of seats, luaggage boot size and safety level. Data app will create on streamlit for application <br>
