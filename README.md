@@ -2,7 +2,7 @@
 ## -Decision Tree Classifier on car dataset with Streamlit data app
 
 ## Objective
-This is an exercise on create a Decision Tree Classifier model to predict predict car class base on the buying price, maintainence price, number of doors, number of seats, luaggage boot size and safety level. Data app will create on streamlit for application <br>
+This is an exercise on create a Decision Tree Classifier model to predict car class base on the buying price, maintenance price, number of doors, number of seats, luggage boot size and safety level. Data app will create on streamlit for application. <br>
 
 'car_app' is code for the Streamlit app <br>
 'develop_model' is code for the python program, include fine tuning of model and visualize the model. <br>
